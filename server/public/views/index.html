@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Harry Potter Characters</title>
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/clientapp.js"></script>
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1 class="display-3 text-center">Harry Potter Characters</h1>
+      <div class="lead text-center" ng-include="'/views/partials/nav.html'"></div>
+    </div>
+    <main ng-view></main>
+
+    <h4>Footer</h4>
+
+  </body>
+</html>
